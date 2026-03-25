@@ -10,17 +10,17 @@
 
 ## Download
 
-Go to **[Releases](https://github.com/rvignesh123/gsm-missed-call-dialer-releases/releases)** and download the latest **`GSM Missed Call Dialer x.x.x.exe`** (portable).
+Go to **[Releases](https://github.com/rvignesh123/gsm-missed-call-dialer-releases/releases)** and download the latest **`GSM.Missed.Call.Dialer.x.x.x.exe`** (portable).
 
 ## For maintainers — publishing a new version
 
-1. Build the portable in the **source** repo: `npm run dist` → `dist/GSM Missed Call Dialer <version>.exe`.
+1. Build the portable in the **source** repo: `npm run dist` → `dist/GSM.Missed.Call.Dialer.<version>.exe`.
 2. Regenerate **`dist/latest.yml`** (SHA512 base64 + file size must match the `.exe`).
-3. On GitHub: **Releases → Draft a new release** → tag **`v<version>`** (e.g. `v1.3.0`).
+3. On GitHub: **Releases → Draft a new release** → tag **`v<version>`** (e.g. `v1.4.2`).
 4. Attach:
-   - `GSM Missed Call Dialer <version>.exe`
+   - `GSM.Missed.Call.Dialer.<version>.exe`
    - `latest.yml`  
-   Filenames must match the `url` and `version` fields inside `latest.yml`.
+   Filenames must match the `url` and `version` fields inside `latest.yml` (dots, no spaces — required for `electron-updater` + GitHub).
 5. Optionally commit the new **`latest.yml`** in this repo (root) for a public record — **do not** commit `.exe` files (see `.gitignore`).
 
 ## Repository layout
