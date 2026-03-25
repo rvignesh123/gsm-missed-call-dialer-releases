@@ -1,8 +1,8 @@
-version: 1.3.1
+version: 1.4.0
 files:
-  - url: GSM Missed Call Dialer 1.3.1.exe
-    sha512: tXUlggHDMMA8LP5uk4KqlxfGuItDqkldT5zjfbqABnlPB+UNMt0bX56I+8UjxnaoBWTTBANYKgd+9KEvH24NIg==
-    size: 76542052
-path: GSM Missed Call Dialer 1.3.1.exe
-sha512: tXUlggHDMMA8LP5uk4KqlxfGuItDqkldT5zjfbqABnlPB+UNMt0bX56I+8UjxnaoBWTTBANYKgd+9KEvH24NIg==
+  - url: GSM Missed Call Dialer 1.4.0.exe
+    sha512: zQs+hZfhDWXQYco2voHIw/ArdS3cnQWeoD8Xw3OxjyZ+whgsghWgIG5VorI4xt8MrIkZogd6YtBmrDjBOJUeIA==
+    size: 76544687
+path: GSM Missed Call Dialer 1.4.0.exe
+sha512: zQs+hZfhDWXQYco2voHIw/ArdS3cnQWeoD8Xw3OxjyZ+whgsghWgIG5VorI4xt8MrIkZogd6YtBmrDjBOJUeIA==
 releaseDate: '2026-03-25T12:00:00.000Z'
